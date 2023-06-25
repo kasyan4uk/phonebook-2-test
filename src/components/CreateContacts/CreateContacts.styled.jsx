@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Box = styled.section`
+export const Box = styled.form`
     border: solid;
     margin-bottom: 30px;
     padding: 5px;
@@ -13,7 +13,8 @@ export const Title = styled.h2`
 `;
 
 export const Input = styled.input`
-    
+    display: flex;
+    margin-bottom: 20px;
 `;
 
 export const AddButton = styled.button`
